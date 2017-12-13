@@ -5,9 +5,28 @@
              x:Class="URL_encoding_ver5.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+
+
+            <Label Text="キーワード検索的なにかでURLを作るプログラム"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+
+            <Entry Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                   x:Name="abc"/>
+
+
+            <Button Text="URLを作成する！！"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked" />
+
+
+
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
