@@ -12,6 +12,8 @@ namespace URL_encoding_ver5
         public MainPage()
         {
             InitializeComponent();
+
+
         }
     }
 }
