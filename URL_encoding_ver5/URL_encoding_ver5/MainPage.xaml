@@ -6,23 +6,25 @@
     <ContentPage.Content>
         <StackLayout>
 
-
             <Label Text="キーワード検索的なにかでURLを作るプログラム"
-                   VerticalOptions="Center"
+                   VerticalOptions="CenterAndExpand"
                    HorizontalOptions="Center" />
 
-            <Entry Text="Welcome to Xamarin.Forms!"
+            <Entry Text="革命のファンファーレ"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                    x:Name="abc"/>
 
 
             <Button Text="URLを作成する！！"
-                    VerticalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Clicked="Button_Clicked" />
 
-
+            <Label Text=""
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   x:Name="result" />
 
 
 
